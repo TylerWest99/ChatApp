@@ -16,6 +16,8 @@ ar1 = "C"
 # emojis
 emoji_dict = {
     "grin": "\U0001F600",
+    "grinWithSweat": "\U0001F605",
+    "laughWithTears": "\U0001F602",
     "laughing": "\U0001F606",
     "sweating": "\U0001F605",
     "upsideDown": "\U0001F643",
@@ -41,11 +43,12 @@ if (ar1.strip().upper() == "CONNECT" or ar1.strip().upper() == "C"):
         print()
         print("Your possible emoji choices are...")
         print("grin, laughing, sweating, upsideDown, winkie, kiss,")
-        print("smiling, zipper, neutral, mask")
+        print("smiling, zipper, neutral, mask, grinWithSweat, laughWithTears")
         print("to quit type q and press space")
 
         # Loop once connected
         while(status == 1):
+            print()
             print("What would you like to Say?")
 
             # outgoing message
